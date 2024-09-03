@@ -1,0 +1,111 @@
+.review {
+    &__block {
+        width: 112rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 4.4rem;
+    }
+
+    &__title {
+        width: 20rem;
+        display: block;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        display: block;
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        padding-top: 1rem;
+        padding-bottom: 1.1rem;
+        border: 1px solid #6A6A6A;
+        border-radius: 3rem;
+        color: #1C1C1C;
+        text-decoration: none;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__wrap {
+        width: 112rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 3.2rem;
+        margin: 0 auto;
+        margin-bottom: 10rem;
+    }
+
+    &__box {
+        display: block;
+        width: 288px;
+        height: 44rem;
+        margin: 0 auto;
+        padding-top: 1.1rem;
+        border-radius: 30px;
+        background: #F8F8F8;
+        text-align: left;
+    }
+
+    &__img {
+        display: block;
+        width: 9rem;
+        height: 9rem;
+        margin: 0 auto;
+        margin-bottom: .84rem;
+        border-radius: 50%;
+    }
+
+    &__ranking {
+        display: block;
+        width: 13.4rem;
+        height: 2rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    &__info {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+        color: #6B6B6B;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        display: block;
+        width: 24rem;
+        margin: 0 auto;
+        padding-bottom: 3.2rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    &__paragraph {
+        display: block;
+        margin-bottom: .5rem;
+    }
+}
